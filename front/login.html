@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../front/index.html">
-    <link rel="stylesheet" href="../styles/login style.css">
-    <title>Login Poggers</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Cadastro poggers</title>
 </head>
 <body>
     <header id="header">
@@ -16,20 +16,45 @@
         </nav>
     </header>
 <main id="login">
-    <h1>Por favor, inscreva-se</h1>
+    <h1>Cadastro de clientes</h1>
     <form action="">
         <div class="form-nome">
-            <label for="nome">E-mail</label>
-            <input type="text" name="nome" required minlength="4" placeholder="informe seu E-mail">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" required minlength="4" placeholder="Informe seu nome">
         </div>
         <div class="form-email">
-            <label for="">Senha</label>
-            <input type="email" name="email" id="email" required placeholder="Informe sua senha">
+            <label for="">E-mail</label>
+            <input type="email" name="email" id="email" required placeholder="Informe seu E-mail">
             </div>
-            <a href="#" type="button">Logar</a>
-            
+
+            <div>
+                <div class="form-cpf">
+                    <label for="CPF">CPF</label>
+                    <input type="text" name="CPF" required maxlength="11" placeholder="Informe seu CPF">
+            </div>
+            <div>
+                <div class="form-Whatsapp">
+                    <label for="whatsapp">Whatsapp</label>
+                    <input type="tel" name="Whatsapp" id="Whatsapp" required placeholder="Informe seu telefone" required minlength="10" required maxlength="11">
+            </div>
+            <div>
+                <div class="form-contato">
+                    <label for="whatsapp">Outro Contato</label>
+                    <input type="tel" name="contato" id="contato" required placeholder="Informe outro contato" required minlength="10" required maxlength="11">
+            </div>
+            <div>
+                <div class="form-nascimento">
+                    <label for="whatsapp">Data de nascimento</label>
+                    <input type="text" name="datadenascimento" required maxlength="8" placeholder="dd/mm/yyyy">
+                
+            </div>
+            <p></p>
+            <h1>Endereço</h1>
+            <div>
+                
+            </div>
         </form>
-        <a href="#" type="button">Ainda não cadastrado? Cadastrar-se</a>
+        
         
 </main>
 </body>
