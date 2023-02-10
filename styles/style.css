@@ -5,6 +5,8 @@
     --cor-preta: black;
     --cor-branca: white;
     --cor-fundo: #FAFBFF;
+    --cor-verde: #1CF365;
+    --cor-vermelha: #DF2F2F;
     
 
 }
@@ -162,3 +164,84 @@ main #formulario #form{
 }
     
 
+/* 
+
+
+Página de registro
+
+
+*/
+
+
+#Register form .grid-2,
+#Register form .grid-4,
+#Register form .grid-3 {
+    display: grid;
+}
+
+#Register form .grid-2 {
+    grid-template-columns: 3fr 2fr;
+    
+}
+
+.form-nome{
+    display: block;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.form-email{
+    display: block;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#Register form .grid-4 {
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+
+.form-cpf{
+    display: block;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+
+
+#Register form .grid-3 {
+    grid-template-columns: 2fr 3fr 1fr;
+    padding: 20px 0px;
+}
+
+#Register form label {
+    display: block;
+}
+
+.btns .btn-verde{
+    width: 198px;
+    height: 24px;
+    left: 12px;
+    top: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color:#1CF365
+}
+
+.btns .btn-vermelho{
+    width: 220px;
+    height: 41px;
+    left: 358px;
+    top: 616px;
+    background: #DF2F2F;
+    border-radius: 18px;
+}
